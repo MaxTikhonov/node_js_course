@@ -1,0 +1,22 @@
+{
+  "name": "node_js_course",
+  "version": "1.0.0",
+  "description": "learning node js",
+  "main": "test.js",
+  "scripts": {
+    "test": "testus"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxTikhonov/node_js_course.git"
+  },
+  "keywords": [
+    "danet"
+  ],
+  "author": "max",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxTikhonov/node_js_course/issues"
+  },
+  "homepage": "https://github.com/MaxTikhonov/node_js_course#readme"
+}
