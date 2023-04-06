@@ -2,9 +2,9 @@
   "name": "node_js_course",
   "version": "1.0.0",
   "description": "learning node js",
-  "main": "test.js",
+  "main": "index.js",
   "scripts": {
-    "test": "testus"
+    "start": "node ./lessons/fyle-system.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/MaxTikhonov/node_js_course/issues"
   },
-  "homepage": "https://github.com/MaxTikhonov/node_js_course#readme"
+  "homepage": "https://github.com/MaxTikhonov/node_js_course#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
 }

@@ -1,0 +1,11 @@
+const dotenv = require('dotenv');
+dotenv.config();
+const path = require('path');
+// console.log(path.join(__dirname, '..', '..', '..'));
+// const fullpath = path.resolve(__dirname, 'first', 'second');
+// console.log('Парсинг пути:', path.parse(fullpath));
+const siteURL = 'http://localhost:8080/users?id=5123';
+const url = new URL(siteURL);
+console.log(process.env.PORT);
+console.log(process.env.NODE_ENV);
+console.log(url);
